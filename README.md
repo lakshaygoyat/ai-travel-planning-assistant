@@ -110,6 +110,11 @@ Run tests and start the UI:
 ```powershell
 pytest -q
 streamlit run app.py
+
+$env:HF_HUB_OFFLINE="1"                         
+>> $env:TRANSFORMERS_OFFLINE="1"
+>> python -m streamlit run app.py --server.fileWatcherType none
+
 ```
 
 Open `http://localhost:8501` if it does not open automatically.
