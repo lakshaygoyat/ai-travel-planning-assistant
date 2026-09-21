@@ -191,7 +191,7 @@ This repository does **not** use a ready-made MCP server. `src/mcp_server.py` im
 4. **Combined:** `Plan a three-day Singapore itinerary for next week and adjust it according to the weather forecast.`
 5. **Context:** `Make day two family-friendly and keep the indoor backup.`
 
-Expand **Evidence and execution trace** after each response. More cases are in [sample_questions.md](sample_questions.md); the short recording plan is in [DEMO_SCRIPT.md](DEMO_SCRIPT.md).
+Expand **Evidence and execution trace** after each response. More cases are in [sample_questions.md](sample_questions.md);
 
 ## Testing and failure handling
 
